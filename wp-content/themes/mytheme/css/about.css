@@ -1,0 +1,53 @@
+.message_txt {
+	text-indent: 1em;
+}
+.about-us-area table td {
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  font-family: 'Noto Sans Japanese',"Work Sans", Arial, sans-serif;
+}
+.about-us-area table td.last {
+  border-bottom: 1px solid #dee2e6;
+}
+.about-us-area table td .contact_tel {
+	pointer-events: none;
+}
+.hilosophyArea {
+	display: flex;
+	-webkit-display: flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	justify-content: center;
+	-webkit-justify-content: center;
+	margin: 30px auto;
+}
+.hilosophy_img {
+	padding-right: 30px;
+}
+.hilosophy_txt {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 70px;
+	font-family: 'Noto Sans Japanese',"Work Sans", Arial, sans-serif;
+}
+@media only screen and (max-width: 767px) {
+	.about-text .section-heading,
+	.about-text .line- {
+		text-align: center;
+		margin: 0 auto 40px;
+	}
+	.about-us-area table td.name {
+		width: 110px;
+	}
+	.about-us-area table td .contact_tel {
+		pointer-events: auto;
+	}
+	.hilosophy_img {
+		padding-right: 0px;
+	}
+	.hilosophy_txt {
+		padding-top: 20px;
+		font-size: 17px;
+		line-height: 2;
+	}
+}

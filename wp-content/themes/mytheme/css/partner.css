@@ -1,0 +1,145 @@
+/* =======================================================
+* strengths
+* ======================================================= */
+#strengths {
+  margin: 60px 0 100px;
+}
+
+#strengths.core-features-area .single-core-feature .feature-content h3 {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+#strengths.core-features-area .single-core-feature .feature-content p {
+  text-align: left;
+}
+
+@media only screen and (max-width: 767px) {
+  #strengths {
+    margin: 30px 0 60px;
+  }
+
+  #strengths.core-features-area .single-core-feature {
+    height: 380px;
+    margin-bottom: 15px;
+  }
+}
+
+
+/* =======================================================
+* benefit
+* ======================================================= */
+#benefit .single-blog-post .post-content {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  #benefit .post-point {
+    margin-top: 30px;
+  }
+}
+
+
+/* =======================================================
+* overview
+* ======================================================= */
+#overview {
+  padding-top: 40px;
+}
+
+#overview table {
+  max-width: 980px;
+  margin: 0 auto 80px;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+}
+
+#overview table th,
+#overview table td {
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+  padding: 20px 30px;
+}
+
+#overview table th {
+  text-align: center;
+  vertical-align: middle;
+  width: 25%;
+  background-color: #555;
+  color: #fff;
+}
+
+#overview table td {
+  background: #fff;
+  line-height: 1.8;
+}
+
+/* career */
+#overview table td.career ul {
+  padding-left: 20px;
+}
+
+#overview table td.career li {
+  list-style: disc;
+}
+
+/* flow */
+#overview table td.flow ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+#overview table td.flow ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 30px;
+  position: relative;
+}
+
+#overview table td.flow ul li:not(:last-child)::after {
+  position: absolute;
+  content: "▶︎";
+  top: 0;
+  right: 4px;
+  color: #555;
+}
+
+@media only screen and (max-width: 767px) {
+  #overview {
+    padding-top: 10px;
+  }
+
+  #overview table {
+    margin: 0 auto 40px;
+  }
+
+  #overview table th {
+    padding: 10px;
+  }
+
+  #overview table td {
+    padding: 20px 15px;
+  }
+
+  #overview table th,
+  #overview table td {
+    display: block;
+    width: 100%;
+    text-align: left;
+    border: none;
+  }
+
+  #overview table td.flow ul li:not(:last-child) {
+    display: block;
+    padding-right: 0px;
+    padding-bottom: 25px;
+  }
+
+  #overview table td.flow ul li:not(:last-child)::after {
+    top: 29px;
+    right: auto;
+    left: 15px;
+    content: "▼";
+    font-size: 10px;
+  }
+}
