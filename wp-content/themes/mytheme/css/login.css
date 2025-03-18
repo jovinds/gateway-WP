@@ -1,0 +1,205 @@
+body {
+    font-family: 'Noto Sans Japanese',"Work Sans", Arial, sans-serif;
+}
+.login_txt {
+	color: #525050;
+    font-size: 15px;
+    line-height: 2.1;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px auto 50px;
+    font-family: 'Noto Sans Japanese',"Work Sans", Arial, sans-serif;
+}
+.login_txt span {
+	font-size: 25px;
+}
+.login_txt br.sp {
+	display: none;
+}
+.ac {
+	text-align: center;
+}
+.owned_txt {
+	color: #525050;
+    font-size: 15px;
+    line-height: 2.1;
+    font-weight: 400;
+}
+.content_txt {
+	color: #525050;
+    font-size: 15px;
+    line-height: 2.1;
+    font-weight: 400;
+    text-align: center;
+    border-bottom:1px solid #ccc;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+.content_txt span {
+	font-size: 20px;
+	color: #c34b4b;
+}
+i {
+	font-size: 30px;
+    color: #c34b4b;
+    display: inline-block;
+    vertical-align: top;
+}
+
+form {
+	text-align: center;
+}
+label {
+	color: #525050;
+    font-size: 15px;
+    line-height: 2.1;
+    font-weight: 400;
+    font-family: 'Noto Sans Japanese',"Work Sans", Arial, sans-serif;
+}
+input#login_input_username {
+	margin-right: 50px;
+}
+input#login_input_username,
+input#login_input_password {
+    transition-duration: 500ms;
+    border: none;
+    border-bottom: 2px solid #c9c9c9;
+    margin-bottom: 30px;
+    font-size: 17px;
+    border-radius: 0;
+    width: 30%;
+    height: 52px;
+    padding-left: 15px;
+}
+button#login_btn {
+	background-color: #ffffff;
+    color: #c34b4b;
+    border: 2px solid #c34b4b;
+    height: 49px;
+    line-height: 48px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    min-width: 180px;
+    padding: 0 30px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.logout {
+  padding-bottom: 50px;
+}
+a.logout_btn {
+    background-color: #ffffff;
+    color: #c34b4b;
+    border: 2px solid #c34b4b;
+    height: 49px;
+    line-height: 48px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    width: 180px;
+    padding: 15px 40px;
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+button#login_btn:hover,
+button#login_btn:focus,
+a.logout_btn:hover,
+a.logout_btn:focus {
+    background-color: #c34b4b;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .login_txt {
+    text-align: left;
+  }
+	.login_txt br.sp {
+		display: block;
+	}
+	form {
+		text-align: left;
+	}
+	input#login_input_username,
+	input#login_input_password {
+		width: 100%;
+		margin: 0 auto 30px;
+	}
+}
+
+
+/* =======================================================
+ ドキュメント
+* ======================================================= */
+.document {
+  margin: 90px auto;
+  color: #525050;
+  font-size: 15px;
+}
+.document h2 {
+  font-size: 30px;
+  color: #363636;
+  text-align: center;
+}
+.document .line- {
+    width: 90px;
+    height: 2px;
+    background-color: #c34b4b;
+    display: block;
+   margin: 0 auto 40px;
+}
+.document ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+  text-align: center;
+}
+.document ul a {
+  list-style-type: none;
+  padding-bottom: 15px;
+  border: 1px solid #c34b4b;
+  background-color: #fff;
+  padding: 20px 10px;
+  margin: 10px 5px;
+  width: 23%;
+  box-sizing: border-box;
+}
+.document ul li i {
+  margin-bottom: 10px;
+}
+.document a {
+  color: #525050;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.document a:hover {
+  opacity: .7;
+  transition: .3s;
+}
+@media only screen and (max-width: 767px) {
+  .document {
+    margin: 60px auto;
+  }
+  .document h2 {
+    font-size: 25px;
+  }
+  .document ul {
+    text-align: left;
+  }
+  .document ul a {
+    margin: 0 auto 10px;
+    width: 46%;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+

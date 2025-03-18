@@ -101,7 +101,7 @@
               <div class="classynav">
                 <ul>
                 <li><a href="<?php echo home_url(); ?>">Home<br><span>ホーム</span></a></li>
-                <li><a href="<?php echo get_permalink(get_page_by_path('about')); ?>">About Us<br><span>会社概要</span></a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('about'));?>">About Us<br><span>会社概要</span></a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('service')); ?>">Service<br><span>サービス</span></a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('partner')); ?>">Partner<br><span>パートナー募集</span></a></li>
                 <li><a href="<?php echo get_permalink(get_page_by_path('contact')); ?>">Contact<br><span>お問い合わせ</span></a></li>

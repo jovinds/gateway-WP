@@ -16,7 +16,11 @@ function sample_site_files() {
     }
 
     if (is_page('contact')) {
-        wp_enqueue_style('partner-style', get_template_directory_uri() . '/css/style.css', array(), '1.0', 'all');
+        wp_enqueue_style('contact-style', get_template_directory_uri() . '/css/style.css', array(), '1.0', 'all');
+    }
+
+    if (is_page('login')) {
+        wp_enqueue_style('login-style', get_template_directory_uri() . '/css/style.css', array(), '1.0', 'all');
     }
 
     // Enqueue jQuery (WordPress includes jQuery by default, so we use 'jquery' handle)
